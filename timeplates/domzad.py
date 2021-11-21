@@ -1,0 +1,1 @@
+print(f'Original text has {counter} words')
