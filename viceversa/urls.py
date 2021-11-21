@@ -19,5 +19,6 @@ from . import vievs
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('tabela/', vievs.tabela)
+    path('', vievs.tabela),
+    path('reverse/', vievs.reverse),
 ]
